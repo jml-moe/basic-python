@@ -28,7 +28,7 @@ is_jamil_rich = False
 my_hobbies = ["Reading", "Gaming", "Cooking"]
 my_hobbies.append("Traveling")
 
-#tuple -> immutable, fixed size
+#tuple -> immutable, fixed size; often used for fixed collections of items, such as coordinates
 coordinates = (10.0, 20.0) 
 
 #print(my_hobbies)
@@ -40,7 +40,7 @@ my_list = list(my_range)
 """print(my_list)
 print(my_range)"""
 
-#Dict -> Key-Value pairs data
+#Dict -> Key-Value pairs data -> mirip dengan object -> bisanya dibuat ketika punya set of value dengan entitas tertentu ex: transaksi, data user
 # user = {}
 
 # Membuat dictionary
@@ -84,7 +84,6 @@ print(user1.get("address", "Tidak ada alamat"))  # Output: Tidak ada alamat
 
 # For user2, "address" key exists, so it returns the actual value
 print(user2.get("address", "Tidak ada alamat"))  # Output: New York
-# print(my_info.get("address", "CRB"))
 
 # x = {1, 2, 3, 1, 3, 2, 4}
 # y = {2, 4, 7, 2, 8}

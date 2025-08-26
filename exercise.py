@@ -26,7 +26,7 @@ Python memerlukan konversi tipe data secara eksplisit"""
 
 """
 Alternatif modern:
-Sebagai alternatif penggunaan str() dengan +, kita dapat menggunakan f-string atau metode format()
+Sebagai alternatif penggunaan str() dengan +, kita dapat menggunakan f-string atau metode format(f"")
 """
 # Menggunakan f-string (Python 3.6+) -> lebih mudah dibaca dan efisien
 print(f"Hello my name is {first_name} {last_name}")
