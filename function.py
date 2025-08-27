@@ -29,7 +29,7 @@ print("------------------------------")
 
 # *args and **kwargs
 
-# *args (Arbitrary Arguments) -> bentuknya tuple biasanya digunakan dalam sebuah function yang jumlah dari inputnya tidak tertentu
+# *args (Arbitrary Arguments) -> bentuknya tuple biasanya digunakan dalam sebuah function yang jumlah dari inputnya tidak tertentu, biasanya buat looping
 
 # *args memungkinkan function menerima jumlah parameter yang tidak terbatas. Parameter disimpan sebagai tuple.
 
@@ -50,6 +50,23 @@ def my_fn(model="GPT-4.1", **kwargs):
 # With additional_config parameter
 my_fn(additional_config="high performance")  # Prints: using additional config: high performance
 
-# 
+# fleksibel function
 def default(arg, default_arg = None, *args, **kwargs):
     pass
+
+# 1. Accepting arg
+# 1. Accepting arg, default arg
+# 1. Accepting *args (tuple) 
+# 1. Accepting **kwargs (dict)
+
+def configure_database(**config):
+    default_config = {
+        "username": "postgres", 
+        "database": "postgres" 
+    }
+    
+    default_config.update(config)
+    return default_config
+
+result = configure_database(password="postgress")
+print(result)
