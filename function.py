@@ -1,5 +1,8 @@
 # function -> reusable unit of code
 
+# A function in Python is a reusable block of code that performs a specific task.
+# best practice dari membuat function adalah 1 function hanya untuk 1 spesific task, ketika kita butuh itu kita bisa panggil functionnya.
+
 # Function to say hello - Simple function without parameters that prints a greeting
 def say_hello():
     print("hello")
