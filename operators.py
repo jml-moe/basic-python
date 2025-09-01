@@ -3,7 +3,7 @@ x = False
 y = True
 
 print(x and y) # -> True ketika kedua perbandingannya sama2 True 
-print(x or y) # True ketika SALAH SATUNYA True -> ex: admin or moderator
+print(x or y) # True ketika SALAH SATUNYA True -> ex: admin or moderator 
 print(not x) # -> True ketika Valuenya False -> ex: not user
 
 def check_data(**config):
@@ -46,3 +46,15 @@ print(value_a > value_b)
 print(value_a < value_b)
 # greater than or equal to
 print(value_a >= value_b)
+# less than or equal to
+print(value_a <= value_b)
+
+# ! Identity Operators
+# |-> membandingkan memory address dari sebuah variabel contoh dalam database datanya kosong atau tidak
+# is
+# is not
+
+value_c = None
+result = value_c is None
+
+print(result)
