@@ -1,6 +1,6 @@
-id,name,age,city,email
-1,John Doe,28,New York,john.doe@email.com
-2,Jane Smith,34,Los Angeles,jane.smith@email.com
-3,Robert Johnson,45,Chicago,robert.j@email.com
-4,Emily Davis,22,Houston,emily.davis@email.com
-5,Michael Brown,39,Phoenix,michael.b@email.com
+id,name,age,city,email,position,salary
+1,John Doe,28,New York,john.doe@email.com,Software Engineer,75000
+2,Jane Smith,34,Los Angeles,jane.smith@email.com,Project Manager,85000
+3,Robert Johnson,45,Chicago,robert.j@email.com,Senior Developer,95000
+4,Emily Davis,22,Houston,emily.davis@email.com,Junior Developer,60000
+5,Michael Brown,39,Phoenix,michael.b@email.com,IT Specialist,78000
